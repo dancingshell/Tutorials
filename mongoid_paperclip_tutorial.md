@@ -24,7 +24,7 @@ Include in your model
 
 
 ## View
-> In your view for that model (wherever you would like the user to be able upload the image (index, show, new))
+In your view for that model (wherever you would like the user to be able upload the image (index, show, new))
 
 #### Photos Model Method (views)
 New

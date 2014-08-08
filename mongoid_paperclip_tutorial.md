@@ -27,19 +27,19 @@ Include in your model
 > In your view for that model (wherever you would like the user to be able upload the image (index, show, new))
 
 #### Photos Model Method (views)
-- New
+New
 > <%= form_for @photo, {url: photos_path(@photo)} do |f| %>
-    <%= f.file_field :image %>
-    <%= f.submit "Upload" %>
-  <% end %>
+>    <%= f.file_field :image %>
+>   <%= f.submit "Upload" %>
+> <% end %>
 
 #### Avatar Method (views)
-- New
+New
 > <%= form_for @your_model_name do |f| %>
-    <%= f.file_field :image %>
-    <%= f.submit "Upload" %>
-  <% end %>
-- Show
+>    <%= f.file_field :image %>
+>   <%= f.submit "Upload" %>
+> <% end %>
+Show
 > <%= image_tag @photo.image.url %>
 
 Let me know if something is not working or you see something that needs to be changed!

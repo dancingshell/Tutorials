@@ -18,7 +18,7 @@ Include in Photo model
 > validates_attachment_content_type :image, content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
 #### Avatar Method (Adding one photo to existing model)
-Include in your model
+Include in your model (below I reference your_model_name)
 > has_mongoid_attached_file :image
 > validates_attachment_content_type :image, content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"]
 
@@ -44,7 +44,7 @@ New
 >   <%= f.submit "Upload" %>
 > <% end %>
 Show
-> <%= image_tag @photo.image.url %>
+> <%= image_tag @your_model_name.image.url %>
 
 Let me know if something is not working or you see something that needs to be changed!
 

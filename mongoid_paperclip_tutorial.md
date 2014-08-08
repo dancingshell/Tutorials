@@ -1,3 +1,6 @@
+
+# Implement Image upload with Rails 4.0.4 and Mongoid(MongoDB)
+
 ## Gems
 - gem "mongoid-paperclip", "~> 0.0.8", :require => "mongoid_paperclip"
 - gem "aws-s3", :require => "aws/s3"

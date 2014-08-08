@@ -5,7 +5,8 @@
 ## Gems
 - gem "mongoid-paperclip", "~> 0.0.8", :require => "mongoid_paperclip"
 - gem "aws-s3", :require => "aws/s3"
-bundle install
+
+*bundle install
 > you don't need to add the amazon web services gem at the moment, but you may need it later during production to store images
 
 

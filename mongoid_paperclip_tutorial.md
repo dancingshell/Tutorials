@@ -46,6 +46,8 @@ New
 >    <%= f.file_field :image %>
 >   <%= f.submit "Upload" %>
 > <% end %>
+
+#
 Show
 > <%= image_tag @your_model_name.image.url %>
 
